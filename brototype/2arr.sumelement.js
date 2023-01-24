@@ -12,7 +12,7 @@ function sum(arr1,arr2)
    }
    console.log(results)
 }
-let arr1=[[1,5],[7,8]]
+let arr1=[[1,5],[2,1]]
 let arr2=[[1,5],[7,8]]
 sum(arr1,arr2)
 sum([[1,3,5],[5,7,8],[0,9,6]],[[4,6],[5,6,7],[4,7,8]])
