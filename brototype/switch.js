@@ -1,21 +1,33 @@
 function week(n)
 {
     switch(n){
-        case 0:
-            day="Sunday";
-            break;
         case 1:
-            day="monday"
+            console.log("day=Sunday")
             break;
         case 2:
-            day="tuesday"
+            console.log("day=monday")
             break;
         case 3:
-            day="wednesday"
+           console.log("day=tuesday")
             break;
         case 4:
-            day="thursday"
+            console.log("day=wednesday")
+            break;
         case 5:
+          console.log("day=thursday")
+          break;
+        case 6:
+          console.log('day=friday')
+          break;
+        case 7:
+            console.log('day=saturday')
+            break;
+        default:
+            console.log('error')
+            break;
 
     }
 }
+week(2)
+week(9)
+week(6)
